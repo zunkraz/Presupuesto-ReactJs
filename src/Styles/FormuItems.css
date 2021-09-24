@@ -1,0 +1,50 @@
+.containerForm{
+    position: relative;
+}
+.inputForm{
+    margin: 3vh 0;
+    font-size: 3vh;
+    border: none;
+    height: 5vh;
+    border-bottom: 2px solid #0047CE;
+}
+.inputForm:focus{
+    outline: none;
+}
+.btnForm{
+    margin-top: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    background-color: #0047CE;
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: 0.2s;
+} 
+.btnForm:hover{
+    background-color: cornflowerblue;
+    box-shadow: black 2px 2px 5px;
+}
+.danger{
+    color: red;
+    font-size: 3vh;
+}
+.presupuesto{
+ background-color: cornflowerblue;
+ border-radius: 0.2rem;
+}
+.alert{
+    border-radius: 0.2rem;
+}
+.alert-success{
+ background-color: chartreuse;
+}
+.alert-warning{
+    background-color: orange;  
+}
+.alert-danger{
+    background-color: orangered;
+}

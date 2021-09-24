@@ -1,0 +1,31 @@
+.App{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.App_1{
+    background-color: #fff;
+    width:40rem;
+    padding: 1rem 2rem 2rem 2rem;
+    justify-self: center;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    box-shadow: #000 2px 3px 5px;
+}
+h1{
+    color: #fff;
+    font-size: 6vh;
+    letter-spacing: 4px;
+}
+
+
+@media (max-width: 700px) {
+    .App_1{
+        margin-top:4vh;
+        font-size: 4vh;
+        width: 70vw;
+    }
+    h1{
+        font-size: 4vh;
+    }
+}

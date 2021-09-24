@@ -1,0 +1,48 @@
+.item{
+    margin-bottom: 0.8rem;
+    text-align: start;
+    margin-left: 1rem;
+    position: relative;
+    border-bottom: solid 1px #0047CE;
+    padding-bottom: 1rem;
+}
+.btnDelete{
+    border: none;
+    position: absolute;
+    background-color: tomato;
+    border-radius: 0.4rem;
+    width: 3rem;
+    height: 2rem;
+    right: 0;
+   font-weight: 800;
+   transition: 0.2s;
+   cursor: pointer;
+}
+.btnDelete:hover{
+    box-shadow: black 2px 2px;
+}
+.value{
+    position: absolute;
+    font-weight: 800;
+    letter-spacing: 2px;
+    right: 6rem;
+    background-color: cornflowerblue;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .items{
+        margin-top: 5vh;
+        font-size: 3vh;
+    }
+    .value{
+        width: 3rem;
+        right: 3rem;
+    }
+    .btnDelete{
+        width:2rem;
+    }
+}
